@@ -1,0 +1,4 @@
+# Lindungi file .env
+<FilesMatch "^\.env$">
+  Require all denied
+</FilesMatch>

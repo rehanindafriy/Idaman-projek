@@ -1,0 +1,42 @@
+# Environment dan rahasia
+.env
+.env.*
+!.env.example
+koneksi.php
+telegram/telegram_config.php
+
+# Dependency
+/vendor/
+/vendors/
+/node_modules/
+
+# Kredensial dan private key
+*service-account*.json
+*credentials*.json
+*credential*.json
+*secret*.json
+*.pem
+*.key
+
+# Log, backup, dan database dump
+*.log
+*.bak
+*.sql
+
+# Data hasil impor pesanan lokal
+/var/import/orders/
+
+/idaman/config.php
+
+/AsisSteph/config.php
+/ai/var/
+/idaman/bot_config*.json
+/idaman/.bot_*
+/idaman/.last_update_id
+/telegram/runtime-screens/
+/telegram/*.bak-*
+**/.DS_Store
+
+/ai/config.php
+
+/secrets.local.php
